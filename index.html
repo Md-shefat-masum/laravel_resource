@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>switch</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900">
     <!-- bootstrap frame work -->
     <script src="js/jquery-3.2.1.min.js"></script>
-    <!-- <script src="js/jquery-3.3.1.slim.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-better-nav.min.js"></script>
@@ -19,28 +20,52 @@
 <body>
 
     <header id="nav" class="sticky-top">
-        <nav class="navbar navbar-expand-md better-bootstrap-nav-right">
+        <nav class="navbar navbar-expand-lg better-bootstrap-nav-right">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="images/logo/logo.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <a class="navbar-brand" href="index.html"><img class="img-fluid" style="width: 80px;" src="images/logo/logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i style="color: #0cb1df" class="fa fa-align-right trigger-open float-right"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link first" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Program</a>
+                            <a class="nav-link" href="aboutus.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">sponsor a child <i class="mdi mdi-chevron-down"></i></a>
+                            <a class="nav-link" href="#">Our Programs <i class="mdi mdi-chevron-down"></i></a>
                             <ul class="">
-                                <li class=""><a href="" class="">item1</a></li>
-                                <li class=""><a href="" class="">item1</a></li>
-                                <li class=""><a href="" class="">item1</a></li>
+                                <li class=""><a href="" class="">Switch Bidda Niketon</a></li>
+                                <li class=""><a href="" class="">Wheel Chair Program</a></li>
+                                <li class=""><a href="" class="">Cleaning Program</a></li>
+                                <li class=""><a href="" class="">KDS Program</a></li>
+                                <li class=""><a href="" class="">Empowerment</a></li>
                             </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery <i class="mdi mdi-chevron-down"></i></a>
+                            <ul class="">
+                                <li class=""><a href="" class="">Video Gallery</a></li>
+                                <li class=""><a href="" class="">Image Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media <i class="mdi mdi-chevron-down"></i></a>
+                            <ul class="">
+                                <li class=""><a href="" class="">Print Media</a></li>
+                                <li class=""><a href="" class="">Elictric Media</a></li>
+                                <li class=""><a href="" class="">Online Media</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Sponsor a Child</a>
                         </li>
                     </ul>
                 </div>
@@ -55,43 +80,37 @@
         <div class="container-out">
             <div class="row banner m-0 owl-carousel ">
                 <div class="col-md-12 p-0">
-                    <div class="slider-body"
-                        style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
-                        <div class="">
-                            <div class="content">
-                                <h3>Relief for Flood Victims</h3>
-                                <p>If you want to donate for flood victims, you can donate by visiting to the link
-                                    below:
-                                    Bikash, Rocket, MasterCard, Visacard, etc.</p>
-                                <a href="">donate now</a>
+                    <div class="slider-body" style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
+                        <div class="overlay" style="overflow: hidden; height: 100%;width: 100%; background: rgba(0,0,0,.6);">
+                            <div class="container">
+                                <div class="">
+                                    <div class="content">
+                                        <h3 class="">Relief for Flood Victims</h3>
+                                        <p class=" ">If you want to donate for flood victims, you can donate
+                                            by visiting to the link
+                                            below:
+                                            Bikash, Rocket, MasterCard, Visacard, etc.</p>
+                                        <a href="#" class="wow fadeInUp">donate now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-12 p-0">
-                    <div class="slider-body"
-                        style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
-                        <div class="">
-                            <div class="content">
-                                <h3>Relief for Flood Victims</h3>
-                                <p>If you want to donate for flood victims, you can donate by visiting to the link
-                                    below:
-                                    Bikash, Rocket, MasterCard, Visacard, etc.</p>
-                                <a href="">donate now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 p-0">
-                    <div class="slider-body"
-                        style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
-                        <div class="">
-                            <div class="content">
-                                <h3>Relief for Flood Victims</h3>
-                                <p>If you want to donate for flood victims, you can donate by visiting to the link
-                                    below:
-                                    Bikash, Rocket, MasterCard, Visacard, etc.</p>
-                                <a href="">donate now</a>
+                    <div class="slider-body" style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
+                        <div class="overlay" style="overflow: hidden; height: 100%;width: 100%; background: rgba(0,0,0,.6);">
+                            <div class="container">
+                                <div class="">
+                                    <div class="content">
+                                        <h3 class="">Relief for Flood Victims</h3>
+                                        <p class=" ">If you want to donate for flood victims, you can donate
+                                            by visiting to the link
+                                            below:
+                                            Bikash, Rocket, MasterCard, Visacard, etc.</p>
+                                        <a href="#" class="wow fadeInUp">donate now</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,102 +121,495 @@
 
     <section id="sponsor">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 ">
                 <div class="donation-details">
-                    <h2>Sponsor a Child</h2>
-                    <span>Equip children for a smarter future!</span>
-                    <p>Sponsor the monthly education cost of an impoverished Bangladeshi child with less than 1 US $
-                        a
-                        day and help bring a meaningful difference in both of your lives!</p>
-                    <a href="https://jaago.com.bd/sponsorship-form/" class="btn theme-btn-s2">SPONSORSHIP FORM</a>
-                    <a href="https://jaago.com.bd/sponsor-a-child/" class="btn theme-btn-s2">DETAILS</a>
+                    <div class="contents">
+                        <h2 class="wow fadeInLeft" data-wow-duration="2s">Sponsor a Child</h2>
+                        <span class="wow fadeInUp" data-wow-duration="2.5s">Equip children for a smarter future!</span>
+                        <p class="wow fadeInUp" data-wow-duration="4s">Sponsor the monthly education cost of an impoverished Bangladeshi child with less than 1 US $
+                            a
+                            day and help bring a meaningful difference in both of your lives!</p>
+                        <a href="https://jaago.com.bd/sponsorship-form/" class="btn wow fadeInUp theme-btn-s2" data-wow-duration="3s">SPONSORSHIP FORM</a>
+                        <a href="https://jaago.com.bd/sponsor-a-child/" class="btn wow fadeInRight theme-btn-s2" data-wow-duration="3.5s">DETAILS</a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="donation-meter-details">
-                    <div class="raised">
-                        <span>RAISED</span>
-                        <h3>2485</h3>
-                    </div>
-                    <div class="progress-bar position" data-percent="90" data-duration="1000"
-                        data-color="#fdce1b,white">
-                    </div>
-                    <div class="goal">
-                        <span>Goal</span>
-                        <h3>3500</h3>
+                    <div class="contents">
+                        <div class="raised wow fadeInLeft" data-wow-duration="2s">
+                            <span>RAISED</span>
+                            <h3>2485</h3>
+                        </div>
+                        <div class="wow progress-bar position" data-percent="90" data-duration="1000" data-color="#0cb1df,white">
+                        </div>
+                        <div class="goal wow fadeInRight" data-wow-duration="2s">
+                            <span>Goal</span>
+                            <h3>3500</h3>
+                        </div>
                     </div>
                 </div>
                 <a href="#" class="btn sponsor-btn">Be a sponsor</a>
             </div>
         </div>
-        </div>
-        </div>
     </section>
 
-
-    <section id="help">
+    <section id="lattest-update">
         <div class="container">
-            <div class="row text-center section-title">
+            <div class="row section-title">
                 <div class="col col-xs-12">
-                    <span>What's up</span>
-                    <h2>Latest Updates</h2>
+                    <h2>Latest News</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="help-item wow slideInUpSlow"
-                        style="visibility: visible; animation-name: slideInUpSlow;">
-                        <span class="icon"><i class="fa fa-money"></i></span>
-                        <div class="details">
-                            <h3>Donate money</h3>
-                            <p>Contribute in our mission to breaking the cycle of poverty through education.</p>
+            <div class="row lattest-updat">
+                <!-- <div class="row "> -->
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
                         </div>
-                    </div>
-                    <div class="help-item wow slideInUpSlow"
-                        style="visibility: visible; animation-name: slideInUpSlow;">
-                        <span class="icon"><i class="fa fa-money"></i></span>
-                        <div class="details">
-                            <h3>Donate money</h3>
-                            <p>Contribute in our mission to breaking the cycle of poverty through education.</p>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
                         </div>
-                    </div>
-                    <div class="help-item wow slideInUpSlow"
-                        style="visibility: visible; animation-name: slideInUpSlow;">
-                        <span class="icon"><i class="fa fa-money"></i></span>
-                        <div class="details">
-                            <h3>Donate money</h3>
-                            <p>Contribute in our mission to breaking the cycle of poverty through education.</p>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="box">
-                        <div class="video">
-                            <img src="https://jaago.com.bd/wp-content/uploads/2017/02/How-JAAGO-works.jpg" alt=""
-                                class="img img-fluid">
-                            <a href="https://www.youtube.com/embed/ZNA51WDpGHc?autoplay=1" class="video-btn"
-                                data-type="iframe"><i class="fa fa-play"></i></a>
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
+                        </div>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
+                        </div>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
+                        </div>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
+                        </div>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
+                        </div>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
+                        </div>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
+                        </div>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
+                        </div>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
+                        </div>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
+                        </div>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
+                        </div>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
+                        </div>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="up-body">
+                        <div class="up-img">
+                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
+                        </div>
+                        <div class="up-det">
+                            <h3>Relief for Flood Victims in Bangladesh</h3>
+                            <p>Auguat 18 / by jacco</p>
+                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
+                        </div>
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <span>19-08-2019</span>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                            <div class="col-4">
+                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
+    <!--    education part start-->
     <section id="education">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="458" height="376"
-                            src="https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore.jpg"
-                            class="vc_single_image-img attachment-full" alt=""
-                            srcset="https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore.jpg 458w, https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore-300x246.jpg 300w"
-                            sizes="100vw">
+                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore.jpg 458w, https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore-300x246.jpg 300w" sizes="100vw">
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="cta-details wow fadeInRightSlow"
-                        style="visibility: visible; animation-name: fadeInRightSlow;">
+                    <div class="cta-details wow fadeInRightSlow" style="visibility: visible; animation-name: fadeInRightSlow;">
                         <h2>Education Program</h2>
                         <p>JAAGO Envisions building a smarter generation to take Bangladesh towards the super highway of
                             economic progress. JAAGO believes an access to quality education for all can make it
@@ -211,84 +623,12 @@
         </div>
     </section>
 
-    <section id="lattest-update">
-        <div class="container">
-            <div class="row section-title">
-                <div class="col col-xs-12">
-                    <span>What's up</span>
-                    <h2>Latest News</h2>
-                </div>
-            </div>
-            <div class="row owl-carousel owl-item lattest-update" style="margin-left: 0">
-                <!-- <div class="row "> -->
-                <div class="up-body">
-                    <div class="up-img">
-                        <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                    </div>
-                    <div class="up-det">
-                        <h3>Relief for Flood Victims in Bangladesh</h3>
-                        <p>Auguat 18 / by jacco</p>
-                        <a href="#">Continue reading..</a>
-                    </div>
-                </div>
-                <div class=>
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a href="#">Continue reading..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a href="#">Continue reading..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a href="#">Continue reading..</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a href="#">Continue reading..</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- testimonial part start -->
     <section id="testimonial">
         <div class="container">
             <div class="row section-title">
                 <div class="col col-xs-12">
-                    <h2>Our Testtimonial</h2>
+                    <h2>Our Testimonial</h2>
                 </div>
             </div>
             <div class="owl-carousel owl-item testimonials">
@@ -347,11 +687,6 @@
     <!-- contact us part -->
     <section id="contact-us">
         <div class="container">
-            <div class="row section-title">
-                <div class="col col-xs-12">
-                    <h2>Our Testtimonial</h2>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-md-5">
                     <div class="join-us">
@@ -360,13 +695,12 @@
                 </div>
                 <div class="col-md-7">
                     <div class="signup">
-                        <h3><span><img src="https://jaago.com.bd/wp-content/uploads/2017/02/vbd-sing-up.png"
-                                    alt=""></span> Sign up for volunteer program.</h3>
+                        <h3><span><img src="https://jaago.com.bd/wp-content/uploads/2017/02/vbd-sing-up.png" alt=""></span> Sign up for volunteer program.</h3>
                         <span>Let's Rebuild Our Nation!</span>
                         <p>Join our volunteer platform under the Youth Development Program that provides the opportunity
                             to empower the youth, facilitate volunteerism, foster self-resilience and growth as well as
                             equipping them with the necessary tools to shape them for a meaningful future. </p>
-                        <a href="#" class="btn">sign up</a>
+                        <a href="registration.html" class="btn">sign up</a>
                     </div>
                 </div>
             </div>
@@ -374,157 +708,90 @@
     </section>
 
     <!-- footer part start -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row upper-footer">
-                <div class="col col-md-4 col-xs-6">
-                    <div id="text-5" class="widget about-widget widget_text">
-                        <div class="textwidget">
-                            <p><img class="img img-responsive" src="images/logo/logo.png" alt=""></p>
-                            <div class="widget about-widget">
-                                <div class="details">
-                                    <p>JAAGO Foundation aims for the betterment of the nation through catering the
-                                        educational needs of children from socially and economically disadvantaged
-                                        background and empowering the youths along with inspiring volunteerism in
-                                        Bangladesh.</p>
-                                    <p class="copyright">2019 © All rights reserved by <a>JAAGO</a></p>
+    <footer class="footer-area footer-bg" id="footer">
+        <div class="footer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget about">
+                            <div class="widget-body">
+                                <div class="footer-logo">
+                                    <a href="index-2.html"><img src="http://switchbd.org/contents/website/assets/img/footer-logo.png" alt="footer logo"></a>
                                 </div>
+                                <p>SWITCH! (A Youth Platform for Social Development) is founded 2011. Switch Bangladesh Foundation (SBF)is a registered non profit, non political, non-governmental organization. </p>
+                                <ul class="footer-social">
+                                    <li style="float: left;margin-right: 10px;"><a href="https://www.facebook.com/Switch2011/" target="_blank"> <i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                    <li style="float: left;margin-right: 10px;"><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li style="float: left;margin-right: 10px;"><a href="https://bd.linkedin.com/in/switch-bangladesh-foundation-ba2426133?fbclid=IwAR0JS7DJVkE5T0RN671MhDFWnQNPwXJ7jSI5SEPjhfJPzClJafdmdMj_q98" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col col-md-3 col-xs-6">
-                    <div id="text-2" class="widget widget_text">
-                        <h3>CONTACT</h3>
-                        <div class="textwidget">
-                            <ul style="color:#6D727B;">
-                                <li>
-                                    <address class="contact-address"><i class="fa fa-home pull-left"></i>
-                                        <div>
-
-                                            Road No- 20, House No- 28, 1st Floor, Block- K,
-                                            Banani,
-                                            <div>Dhaka-1213, Bangladesh.</div>
-                                        </div>
-                                    </address>
-                                </li>
-                                <li><i class="fa fa-mobile "></i> (+88) 017 6666 6654</li>
-                                <li><i class="fa fa-phone "></i> (+88) 02 8836070</li>
-                                <li><i class="fa fa-envelope"></i>
-                                    <a class="mail" href="mailto:info@jaago.com.bd">info@jaago.com.bd</a></li>
-                                <li><br></li>
-                            </ul>
-                            <br>
-                            <ul class="widget-social-links">
-                                <li><a href="https://www.facebook.com/JAAGOFoundation/" target="_blank"
-                                        rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li><a
-                                    href="https://www.facebook.com/JAAGOFoundation/" target="_blank"
-                                    rel="noopener noreferrer">
-                                </a>
-                                <li><a href="https://www.facebook.com/JAAGOFoundation/" target="_blank"
-                                        rel="noopener noreferrer"></a><a href="https://twitter.com/JAAGOFoundation"
-                                        target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
-                                <a href="https://twitter.com/JAAGOFoundation" target="_blank" rel="noopener noreferrer">
-                                </a>
-                                <li><a href="https://twitter.com/JAAGOFoundation" target="_blank"
-                                        rel="noopener noreferrer"></a><a
-                                        href="https://www.linkedin.com/company/jaago-foundation" target="_blank"
-                                        rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li><a
-                                    href="https://www.linkedin.com/company/jaago-foundation" target="_blank"
-                                    rel="noopener noreferrer">
-                                </a>
-                                <li><a href="https://www.linkedin.com/company/jaago-foundation" target="_blank"
-                                        rel="noopener noreferrer"></a><a href="https://www.youtube.com/user/korvi"
-                                        target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube"></i></a></li>
-                                <a href="https://www.youtube.com/user/korvi" target="_blank" rel="noopener noreferrer">
-                                </a>
-                                <li><a href="https://www.youtube.com/user/korvi" target="_blank"
-                                        rel="noopener noreferrer"></a><a
-                                        href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                                        rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li><a
-                                    href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                                    rel="noopener noreferrer">
-
-                                </a>
-                            </ul>
-                        </div><a href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                            rel="noopener noreferrer">
-                        </a>
-                    </div><a href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                        rel="noopener noreferrer"> </a>
-                </div><a href="https://www.instagram.com/jaagofoundation/" target="_blank" rel="noopener noreferrer">
-                </a>
-                <div class="col col-md-2 col-xs-6"><a href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                        rel="noopener noreferrer">
-                    </a>
-                    <div id="text-3" class="widget widget_text"><a href="https://www.instagram.com/jaagofoundation/"
-                            target="_blank" rel="noopener noreferrer">
-                            <h3>QUICK Links</h3>
-                        </a>
-                        <div class="textwidget"><a href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                                rel="noopener noreferrer"> </a>
-                            <ul><a href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                                    rel="noopener noreferrer">
-                                </a>
-                                <li><a href="https://www.instagram.com/jaagofoundation/" target="_blank"
-                                        rel="noopener noreferrer"></a><a href="#/about/">About Us</a>
-                                </li>
-                                <li><a href="#/our-schools/">Our Schools</a></li>
-                                <li><a href="#/sponsor-a-child/">Sponsor A Child</a></li>
-                                <li><a href="#/our-causes/">Our Causes</a></li>
-                                <li><a href="#/project/">Project</a></li>
-                                <li><a href="#/our-career/">Career</a></li>
-                            </ul>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget two">
+                            <div class="widget-title">
+                                <h3 class="title">Useful Links</h3>
+                            </div>
+                            <div class="widget-body">
+                                <ul class="footer-links">
+                                    <li> <a href="http://switchbd.org/about"><i class="fa fa-angle-double-right"></i> About us </a></li>
+                                    <li> <a href="http://switchbd.org/activity/magazin"><i class="fa fa-angle-double-right"></i>Switch bidda niketon</a></li>
+                                    <li> <a href="http://switchbd.org/activity/comunity-libery"><i class="fa fa-angle-double-right"></i>Wheel chair</a></li>
+                                    <li> <a href="#"><i class="fa fa-angle-double-right"></i> KDS program </a></li>
+                                    <li> <a href="http://switchbd.org/contact"><i class="fa fa-angle-double-right"></i> Clean Program </a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col col-md-3 col-xs-6">
-                    <div id="text-4" class="widget contact-widget widget_text">
-                        <h3>globalgiving</h3>
-                        <div class="textwidget">
-                            <style>
-                                .gg_badge_footer ul li {
-                                    max-width: 47%;
-                                    display: inline-block;
-                                    margin: 1%;
-                                }
-                            </style>
-                            <div class="gg_badge_footer">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-widget contact-info">
+                            <div class="widget-title">
+                                <h3 class="title title3">Contact Info</h3>
+                            </div>
+                            <div class="widget-body">
                                 <ul>
-                                    <li><a href="https://www.globalgiving.org/donate/11211/jaago-foundation/"
-                                            target="_blank" rel="noopener noreferrer"><img
-                                                src="#/wp-content/uploads/2019/01/gg_badge_01.png"></a>
+                                    <li class="contact-info-item">
+                                        <div class="content">
+                                            <span class="details">#Home-40, D-block. Haji Dil Mohammad Avenue,Main Road, Dhaka Uddan,Mohammadpur.Dhaka-1207</span>
+                                        </div>
                                     </li>
-                                    <li><a href="https://www.globalgiving.org/donate/11211/jaago-foundation/"
-                                            target="_blank" rel="noopener noreferrer"><img
-                                                src="#/wp-content/uploads/2019/01/gg_badge_02.png"></a>
+                                    <li class="contact-info-item">
+                                        <div class="icon">
+                                            <i class="fa fa-phone-square float-left" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="content">
+                                            <span class="details">+880 1733159533</span>
+                                        </div>
                                     </li>
-                                    <li><a href="https://www.globalgiving.org/donate/11211/jaago-foundation/"
-                                            target="_blank" rel="noopener noreferrer"><img
-                                                src="#/wp-content/uploads/2019/01/gg_badge_03.png"></a>
-                                    </li>
-                                    <li><a href="https://www.globalgiving.org/donate/11211/jaago-foundation/"
-                                            target="_blank" rel="noopener noreferrer"><img
-                                                src="#/wp-content/uploads/2019/01/gg_badge_04.png"></a>
+                                    <li class="contact-info-item">
+                                        <div class="icon float-left">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="content">
+                                            <span class="details">info@switchbd.org</span>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </div> <!-- end upper-footer -->
-            <div class="row lower-footer">
-                <div class="col col-xs-12">
-                    <p>Copyright 2019<span> </span> <a href="#">JAAGO Foundation</a></p>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        © Copyright <span class="base-color">2018</span> all right Reserved by Switch BD | Development By <a href="#"><span class="base-color">Creative System Limited</span></a>.
+                    </div>
                 </div>
             </div>
-        </div> <!-- end container -->
+        </div>
     </footer>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/progressbar.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/custom.js"></script>
 </body>
 
