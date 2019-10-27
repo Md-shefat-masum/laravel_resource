@@ -54,7 +54,7 @@
                         <li><i class="mdi mdi-language-html5"></i><a href="#">html</a></li>
                         <li><i class="mdi mdi-drag-variant"></i><a href="#">others</a>
                             <ul>
-                                <li><a href="github.html">git hub</a></li>
+                                <li><a href="#">git hub</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -68,114 +68,102 @@
             <div class="row">
                 <div class="col-md-4">
                     <ul class="left-nav">
-                        <li><i class="mdi mdi-grain"></i><a href="#">Install file with admin-panel, authentication,
-                                intervantion, storage, ck-editor</a></li>
-                        <li><i class="mdi mdi-grain"></i><a href="#">laravel resource controller</a></li>
-                        <li><i class="mdi mdi-grain"></i><a href="#">image intervention</a></li>
-                        <li><i class="mdi mdi-grain"></i><a href="#">laravel storage</a></li>
-                        <li><i class="mdi mdi-grain"></i><a href="#">file upload</a></li>
-                        <li><i class="mdi mdi-grain"></i><a href="#">basic queries</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">link</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">syntax</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">selector</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">click</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">submit</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">css</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">addClass</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">remove</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">append</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">formData</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">trigger - reset</a></li>
                     </ul>
                 </div>
                 <div class="col-md-8" style="height: 90vh; overflow-y: scroll;">
                     <div class="resource-body overflow-hidden bg-white">
 
                         <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Default Installation</h2>
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>link</h2>
                             <p>
-                                composer create-project --prefer-dist laravel/laravel project-name
+                                <a href="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+                                    target="_blank"> https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+                                </a>
                             </p>
                         </div>
 
                         <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i>provider -> appServiceProvider </h2>
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>syntax</h2>
                             <p>
-                                use Illuminate\Support\Facades\Schema;
-                            </p>
-                            <p>
-                                public function boot(){<br>
-                                <span class="pl-3"></span>Schema::defaultStringLength(191);<br>
-                                }
+                                $(document).ready(function(){<br>
+                                });
                             </p>
                         </div>
 
                         <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Download Default Admin</h2>
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>selector</h2>
                             <p>
-                                <a href="#" target="_blank">Click to Download...</a>
+                                $(document).ready(function(){<br>
+                                <span class="ml-3"></span>$("button").click(function(){<br>
+                                <span class="ml-3"></span>$("#test").hide();<br>
+                                <span class="ml-3"></span>});<br>
+                                });
                             </p>
                         </div>
 
                         <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i> Laravel Resource Controller</h2>
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i> click </h2>
                             <p>
-                                Command: php artisan make:controller PhotoController --resource --model=photo
-                            </p>
-                            <p>
-                                Route: Route::resource('photos', 'PhotoController');
-                            </p>
-                        </div>
+                                $(&quot;p&quot;).on(&quot;click&quot;,&nbsp;function(){<br />
+                                &nbsp; $(this).hide();<br />
+                                });
 
-                        <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Image intervantion</h2>
-                            <p>
-                                Comand: composer require intervention/image
-                            </p>
-                            <p>
-                                <h6>Setting: config/app.php</h6>
-                                'providers' => [ <br>
-                                <span class="ml-3"></span> Intervention\Image\ImageServiceProvider::class <br>
-                                ],
-                                <br>
-                                'aliases' => [ <br>
-                                <span class="ml-3"></span> 'Image' => Intervention\Image\Facades\Image::class <br>
-                                ]
                             </p>
                         </div>
 
                         <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i> File upload</h2>
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Submit</h2>
                             <p>
-                                if ($request->hasFile('image')) { <br>
-                                <span class="ml-3"></span>$file = $request->file('image');<br>
-                                <span class="ml-3"></span>$path = $file->hashName('image');<br>
-                                <span class="ml-3"></span>$image = Image::make($file);<br>
-                                <span class="ml-3"></span>$image->fit(600, 400, function ($constraint) {<br>
-                                <span class="ml-3"></span>$constraint->aspectRatio();<br>
-                                });<br>
-                                $path = 'uploads/ajaxCrud/' . $path;<br>
-                                Storage::put($path, (string) $image->encode());<br>
-
-                                AjaxCrud::where('id', $request->id)->update([<br>
-                                <span class="ml-3"></span>'image' => $path,<br>
-                                <span class="ml-3"></span>]);<br>
-                                }<br>
+                                $(&quot;form&quot;).on(&quot;submit&quot;,&nbsp;function(){<br />
+                                &nbsp; $(this).hide();<br />
+                                });
                             </p>
                         </div>
 
                         <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i> Laravel Storage Settinng</h2>
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>css</h2>
                             <p>
-                                config > filesytem <br>
-                                <span class="ml-3"></span>'local' => [<br>
-                                <span class="ml-3"></span>'driver' => 'local',<br>
-                                <span class="ml-3"></span>'root' => public_path(),<br>
-                                ],<br>
-
-                                <span class="ml-3"></span>'public' => [<br>
-                                <span class="ml-3"></span>'driver' => 'local',<br>
-                                <span class="ml-3"></span>'root' => public_path(),<br>
-                                ],<br>
+                                <code>$( &quot;p&quot; ).on( &quot;mouseover&quot;, function() {</code></pre><br>
+                                <code>&nbsp; &nbsp;$( this ).css( &quot;color&quot;, &quot;red&quot; );</code><br>
+                                <code>});</code>
                             </p>
                         </div>
 
                         <div class="single-block">
-                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Basic queries</h2>
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>add class</h2>
                             <p>
-                                <h6>Pagination:</h6>
-                                $users = DB::table('users')->paginate(15);<br>
-                                return view('user.index', ['users' => $users]); <br>
-                                {{ $users->links() }}
+                                $( "p" ).addClass( "myClass yourClass" );
+                            </p>
+                        </div>
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>remove class</h2>
+                            <p>
+                                $( "p" ).removeClass( "myClass noClass" ).addClass( "yourClass" );
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Remove</h2>
+                            <p>
+                                $( "div" ).remove( ".hello" );
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>append</h2>
+                            <p>
+                                $( ".container" ).append( $( "h2" ) );
                             </p>
                         </div>
 
