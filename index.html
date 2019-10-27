@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>switch</title>
+    <title>Laravel Resource</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:300,400,600,700,800,900">
     <!-- bootstrap frame work -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -19,775 +21,176 @@
 
 <body>
 
-    <header id="nav" class="sticky-top">
-        <nav class="navbar navbar-expand-lg better-bootstrap-nav-right">
-            <div class="container">
-                <a class="navbar-brand" href="index.html"><img class="img-fluid" style="width: 80px;" src="images/logo/logo.png" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <i style="color: #0cb1df" class="fa fa-align-right trigger-open float-right"></i>
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link first" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutus.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Our Programs <i class="mdi mdi-chevron-down"></i></a>
-                            <ul class="">
-                                <li class=""><a href="" class="">Switch Bidda Niketon</a></li>
-                                <li class=""><a href="" class="">Wheel Chair Program</a></li>
-                                <li class=""><a href="" class="">Cleaning Program</a></li>
-                                <li class=""><a href="" class="">KDS Program</a></li>
-                                <li class=""><a href="" class="">Empowerment</a></li>
+    <header id="header"
+        style="background: url('./images/blocks_3.jpg');background-position: right; background-size: cover; background-attachment: fixed;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6 position-relative">
+                    <div class="logo">
+                        <img src="images/logo/logomark.min.svg" alt="">
+                        <img src="images/logo/logotype.min.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="nav" class="sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><i class="mdi mdi-laravel"></i><a href="#">laravel</a></li>
+                        <li><i class="mdi mdi-language-php"></i><a href="#">php</a></li>
+                        <li><i class="mdi mdi-language-javascript"></i><a href="#">java script</a>
+                            <ul>
+                                <li><a href="#">jQuery</a></li>
+                                <li><a href="#">Ajax Json</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery <i class="mdi mdi-chevron-down"></i></a>
-                            <ul class="">
-                                <li class=""><a href="" class="">Video Gallery</a></li>
-                                <li class=""><a href="" class="">Image Gallery</a></li>
+                        <li><i class="mdi mdi-bootstrap"></i><a href="#">bootstrap</a></li>
+                        <li><i class="mdi mdi-language-html5"></i><a href="#">html</a></li>
+                        <li><i class="mdi mdi-drag-variant"></i><a href="#">others</a>
+                            <ul>
+                                <li><a href="#">git hub</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Media <i class="mdi mdi-chevron-down"></i></a>
-                            <ul class="">
-                                <li class=""><a href="" class="">Print Media</a></li>
-                                <li class=""><a href="" class="">Elictric Media</a></li>
-                                <li class=""><a href="" class="">Online Media</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Sponsor a Child</a>
                         </li>
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-    <!-- nav part end -->
-
-    <!-- banner part start -->
-
-    <section id="banner">
-        <div class="container-out">
-            <div class="row banner m-0 owl-carousel ">
-                <div class="col-md-12 p-0">
-                    <div class="slider-body" style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
-                        <div class="overlay" style="overflow: hidden; height: 100%;width: 100%; background: rgba(0,0,0,.6);">
-                            <div class="container">
-                                <div class="">
-                                    <div class="content">
-                                        <h3 class="">Relief for Flood Victims</h3>
-                                        <p class=" ">If you want to donate for flood victims, you can donate
-                                            by visiting to the link
-                                            below:
-                                            Bikash, Rocket, MasterCard, Visacard, etc.</p>
-                                        <a href="#" class="wow fadeInUp">donate now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 p-0">
-                    <div class="slider-body" style="background: url('images/banner/slider1.jpg');background-size: cover;background-repeat: no-repeat;">
-                        <div class="overlay" style="overflow: hidden; height: 100%;width: 100%; background: rgba(0,0,0,.6);">
-                            <div class="container">
-                                <div class="">
-                                    <div class="content">
-                                        <h3 class="">Relief for Flood Victims</h3>
-                                        <p class=" ">If you want to donate for flood victims, you can donate
-                                            by visiting to the link
-                                            below:
-                                            Bikash, Rocket, MasterCard, Visacard, etc.</p>
-                                        <a href="#" class="wow fadeInUp">donate now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <section id="sponsor">
-        <div class="row">
-            <div class="col-md-6 ">
-                <div class="donation-details">
-                    <div class="contents">
-                        <h2 class="wow fadeInLeft" data-wow-duration="2s">Sponsor a Child</h2>
-                        <span class="wow fadeInUp" data-wow-duration="2.5s">Equip children for a smarter future!</span>
-                        <p class="wow fadeInUp" data-wow-duration="4s">Sponsor the monthly education cost of an impoverished Bangladeshi child with less than 1 US $
-                            a
-                            day and help bring a meaningful difference in both of your lives!</p>
-                        <a href="https://jaago.com.bd/sponsorship-form/" class="btn wow fadeInUp theme-btn-s2" data-wow-duration="3s">SPONSORSHIP FORM</a>
-                        <a href="https://jaago.com.bd/sponsor-a-child/" class="btn wow fadeInRight theme-btn-s2" data-wow-duration="3.5s">DETAILS</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="donation-meter-details">
-                    <div class="contents">
-                        <div class="raised wow fadeInLeft" data-wow-duration="2s">
-                            <span>RAISED</span>
-                            <h3>2485</h3>
-                        </div>
-                        <div class="wow progress-bar position" data-percent="90" data-duration="1000" data-color="#0cb1df,white">
-                        </div>
-                        <div class="goal wow fadeInRight" data-wow-duration="2s">
-                            <span>Goal</span>
-                            <h3>3500</h3>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="btn sponsor-btn">Be a sponsor</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="lattest-update">
-        <div class="container">
-            <div class="row section-title">
-                <div class="col col-xs-12">
-                    <h2>Latest News</h2>
-                </div>
-            </div>
-            <div class="row lattest-updat">
-                <!-- <div class="row "> -->
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4">
-                    <div class="up-body">
-                        <div class="up-img">
-                            <img class="img-fluid" src="images/latest-update/siam.jpg" alt="img">
-                        </div>
-                        <div class="up-det">
-                            <h3>Relief for Flood Victims in Bangladesh</h3>
-                            <p>Auguat 18 / by jacco</p>
-                            <a data-toggle="modal" data-target="#exampleModalCenter">Continue reading..</a>
-                        </div>
-                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                            <div class="modal-dialog update-details modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalScrollableTitle">Relief for Flood Victims in Bangladesh</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <span>19-08-2019</span>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptate, autem tenetur rerum eos corrupti nostrum laudantium, neque asperiores reprehenderit. Vero qui odit illum, ea cumque. Quaerat provident laudantium velit? ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium?
-                                        </p>
-
-                                        <div class="row">
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                            <div class="col-4">
-                                                <img class="img-fluid" src="images/update-img/inner-intu.png" alt="img">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!--    education part start-->
-    <section id="education">
+    <section id="menu" style="height: 90vh;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img src="https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore.jpg 458w, https://jaago.com.bd/wp-content/uploads/2017/02/ep-explore-300x246.jpg 300w" sizes="100vw">
-                    </div>
+                <div class="col-md-4">
+                    <ul class="left-nav">
+                        <li><i class="mdi mdi-grain"></i><a href="#">Install file with admin-panel, authentication,
+                                intervantion, storage, ck-editor</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">laravel resource controller</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">image intervention</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">laravel storage</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">file upload</a></li>
+                        <li><i class="mdi mdi-grain"></i><a href="#">basic queries</a></li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <div class="cta-details wow fadeInRightSlow" style="visibility: visible; animation-name: fadeInRightSlow;">
-                        <h2>Education Program</h2>
-                        <p>JAAGO Envisions building a smarter generation to take Bangladesh towards the super highway of
-                            economic progress. JAAGO believes an access to quality education for all can make it
-                            happen.<br>
-                            Support our mission of eradicating poverty through education and help us equip children for
-                            a smarter future!</p>
-                        <a href="https://jaago.com.bd/ep-program/" class="btn theme-btn">Explore more</a>
+                <div class="col-md-8" style="height: 90vh; overflow-y: scroll;">
+                    <div class="resource-body overflow-hidden bg-white">
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Default Installation</h2>
+                            <p>
+                                composer create-project --prefer-dist laravel/laravel project-name
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>provider -> appServiceProvider </h2>
+                            <p>
+                                use Illuminate\Support\Facades\Schema;
+                            </p>
+                            <p>
+                                public function boot(){<br>
+                                <span class="pl-3"></span>Schema::defaultStringLength(191);<br>
+                                }
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Download Default Admin</h2>
+                            <p>
+                                <a href="#" target="_blank">Click to Download...</a>
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i> Laravel Resource Controller</h2>
+                            <p>
+                                Command: php artisan make:controller PhotoController --resource --model=photo
+                            </p>
+                            <p>
+                                Route: Route::resource('photos', 'PhotoController');
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Image intervantion</h2>
+                            <p>
+                                Comand: composer require intervention/image
+                            </p>
+                            <p>
+                                <h6>Setting: config/app.php</h6>
+                                'providers' => [ <br>
+                                <span class="ml-3"></span> Intervention\Image\ImageServiceProvider::class <br>
+                                ],
+                                <br>
+                                'aliases' => [ <br>
+                                <span class="ml-3"></span> 'Image' => Intervention\Image\Facades\Image::class <br>
+                                ]
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i> File upload</h2>
+                            <p>
+                                if ($request->hasFile('image')) { <br>
+                                <span class="ml-3"></span>$file = $request->file('image');<br>
+                                <span class="ml-3"></span>$path = $file->hashName('image');<br>
+                                <span class="ml-3"></span>$image = Image::make($file);<br>
+                                <span class="ml-3"></span>$image->fit(600, 400, function ($constraint) {<br>
+                                <span class="ml-3"></span>$constraint->aspectRatio();<br>
+                                });<br>
+                                $path = 'uploads/ajaxCrud/' . $path;<br>
+                                Storage::put($path, (string) $image->encode());<br>
+
+                                AjaxCrud::where('id', $request->id)->update([<br>
+                                <span class="ml-3"></span>'image' => $path,<br>
+                                <span class="ml-3"></span>]);<br>
+                                }<br>
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i> Laravel Storage Settinng</h2>
+                            <p>
+                                config > filesytem <br>
+                                <span class="ml-3"></span>'local' => [<br>
+                                <span class="ml-3"></span>'driver' => 'local',<br>
+                                <span class="ml-3"></span>'root' => public_path(),<br>
+                                ],<br>
+
+                                <span class="ml-3"></span>'public' => [<br>
+                                <span class="ml-3"></span>'driver' => 'local',<br>
+                                <span class="ml-3"></span>'root' => public_path(),<br>
+                                ],<br>
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i>Basic queries</h2>
+                            <p>
+                                <h6>Pagination:</h6>
+                                $users = DB::table('users')->paginate(15);<br>
+                                return view('user.index', ['users' => $users]); <br>
+                                {{ $users->links() }}
+                            </p>
+                        </div>
+
+                        <div class="single-block">
+                            <h2><i class="mdi mdi-image-filter-center-focus"></i></h2>
+                            <p>
+
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- testimonial part start -->
-    <section id="testimonial">
-        <div class="container">
-            <div class="row section-title">
-                <div class="col col-xs-12">
-                    <h2>Our Testimonial</h2>
-                </div>
-            </div>
-            <div class="owl-carousel owl-item testimonials">
-                <div class="">
-                    <div class="testimonial">
-                        <div class="image">
-                            <img src="http://www.switchbd.org/uploads/testtimonial/tm_31560754416.jpg" alt="">
-                        </div>
-                        <h3 class="title">Foysal</h3>
-                        <span class="post">Teacher</span>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua</p>
-
-                    </div>
-                </div>
-                <div class="">
-                    <div class="testimonial">
-                        <div class="image">
-                            <img src="http://www.switchbd.org/uploads/testtimonial/tm_31560754416.jpg" alt="">
-                        </div>
-                        <h3 class="title">Foysal</h3>
-                        <span class="post">Teacher</span>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua</p>
-
-                    </div>
-                </div>
-                <div class="">
-                    <div class="testimonial">
-                        <div class="image">
-                            <img src="http://www.switchbd.org/uploads/testtimonial/tm_31560754416.jpg" alt="">
-                        </div>
-                        <h3 class="title">Foysal</h3>
-                        <span class="post">Teacher</span>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua</p>
-
-                    </div>
-                </div>
-                <div class="">
-                    <div class="testimonial">
-                        <div class="image">
-                            <img src="http://www.switchbd.org/uploads/testtimonial/tm_31560754416.jpg" alt="">
-                        </div>
-                        <h3 class="title">Foysal</h3>
-                        <span class="post">Teacher</span>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- contact us part -->
-    <section id="contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="join-us">
-                        <span>Join Us</span>
-                    </div>
-                </div>
-                <div class="col-md-7">
-                    <div class="signup">
-                        <h3><span><img src="https://jaago.com.bd/wp-content/uploads/2017/02/vbd-sing-up.png" alt=""></span> Sign up for volunteer program.</h3>
-                        <span>Let's Rebuild Our Nation!</span>
-                        <p>Join our volunteer platform under the Youth Development Program that provides the opportunity
-                            to empower the youth, facilitate volunteerism, foster self-resilience and growth as well as
-                            equipping them with the necessary tools to shape them for a meaningful future. </p>
-                        <a href="registration.html" class="btn">sign up</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer part start -->
-    <footer class="footer-area footer-bg" id="footer">
-        <div class="footer-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget about">
-                            <div class="widget-body">
-                                <div class="footer-logo">
-                                    <a href="index-2.html"><img src="http://switchbd.org/contents/website/assets/img/footer-logo.png" alt="footer logo"></a>
-                                </div>
-                                <p>SWITCH! (A Youth Platform for Social Development) is founded 2011. Switch Bangladesh Foundation (SBF)is a registered non profit, non political, non-governmental organization. </p>
-                                <ul class="footer-social">
-                                    <li style="float: left;margin-right: 10px;"><a href="https://www.facebook.com/Switch2011/" target="_blank"> <i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                    <li style="float: left;margin-right: 10px;"><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li style="float: left;margin-right: 10px;"><a href="https://bd.linkedin.com/in/switch-bangladesh-foundation-ba2426133?fbclid=IwAR0JS7DJVkE5T0RN671MhDFWnQNPwXJ7jSI5SEPjhfJPzClJafdmdMj_q98" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget two">
-                            <div class="widget-title">
-                                <h3 class="title">Useful Links</h3>
-                            </div>
-                            <div class="widget-body">
-                                <ul class="footer-links">
-                                    <li> <a href="http://switchbd.org/about"><i class="fa fa-angle-double-right"></i> About us </a></li>
-                                    <li> <a href="http://switchbd.org/activity/magazin"><i class="fa fa-angle-double-right"></i>Switch bidda niketon</a></li>
-                                    <li> <a href="http://switchbd.org/activity/comunity-libery"><i class="fa fa-angle-double-right"></i>Wheel chair</a></li>
-                                    <li> <a href="#"><i class="fa fa-angle-double-right"></i> KDS program </a></li>
-                                    <li> <a href="http://switchbd.org/contact"><i class="fa fa-angle-double-right"></i> Clean Program </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="footer-widget contact-info">
-                            <div class="widget-title">
-                                <h3 class="title title3">Contact Info</h3>
-                            </div>
-                            <div class="widget-body">
-                                <ul>
-                                    <li class="contact-info-item">
-                                        <div class="content">
-                                            <span class="details">#Home-40, D-block. Haji Dil Mohammad Avenue,Main Road, Dhaka Uddan,Mohammadpur.Dhaka-1207</span>
-                                        </div>
-                                    </li>
-                                    <li class="contact-info-item">
-                                        <div class="icon">
-                                            <i class="fa fa-phone-square float-left" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="content">
-                                            <span class="details">+880 1733159533</span>
-                                        </div>
-                                    </li>
-                                    <li class="contact-info-item">
-                                        <div class="icon float-left">
-                                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="content">
-                                            <span class="details">info@switchbd.org</span>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        © Copyright <span class="base-color">2018</span> all right Reserved by Switch BD | Development By <a href="#"><span class="base-color">Creative System Limited</span></a>.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/progressbar.js"></script>

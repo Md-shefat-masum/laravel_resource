@@ -8,5 +8,5 @@
 @import 'owlgreen.min.css';
 @import 'animate.css';
 @import 'progressbar.css';
-@import 'style.css';
+@import '../less/style.css';
 @import 'responsive.css';
